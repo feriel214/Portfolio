@@ -3,7 +3,7 @@ margin-bottom: 30px !important;
 background-color: #fff !important;
 padding: 0 22px 0 0 0 !important;
 border-radius: 6px !important;
-box-shadow: 0px 2 px 92px 0 px rgba(0,0,0,0.07) !important;    
+box-shadow: 0px 2px 92px 0px rgba(0,0,0,0.07) !important;    
 
 }
 .header .header_navlink{
@@ -38,3 +38,4 @@ box-shadow: 0px 2 px 92px 0 px rgba(0,0,0,0.07) !important;
     margin-right: 12px;
     color : #000;
 }
+

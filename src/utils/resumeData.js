@@ -3,6 +3,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import FacebookIcon from "@mui/icons-material/Facebook";
+import { WebOutlined } from "@mui/icons-material";
 export default {
   name: "Feriel Zarrouki",
   title: "Software Engineer | Full Stack Developer | Lead Web Instructor",
@@ -52,7 +53,67 @@ export default {
         "A web-based solution for vehicle position monitoring and traffic control driver behavior.",
         "Technologies used: VueJs, Express JS, Azure Table Storage, Redis, Postgresql, Git,Ulbotech T381.",
       ],
+    }
+  ],
+  education: [
+    {
+      title: "National Diploma in Software Development Engineering",
+      universiity: "Higher Institute of Computer Science | Ariana",
+      date: "Present - Sept 2021",
+      discreption: "",
     },
+    {
+      title: "Applied License in Information Systems Development",
+      universiity: "Higher Institute of Technological Studies | Zaghouan",
+      date: "Sep 2018 - Jul 2021",
+      discreption: "Major of promotion",
+    },
+    {
+      title: "Ben Arous Secondary School",
+      universiity: "Bachelor in Mathematics | Ben Arous",
+      date: "2018",
+      discreption: "",
+    },
+  ],
+  services:[
+    {
+      title:"Web Development",
+      description:" I have a been a web Developer for 2 years",
+      icon : <WebOutlined />
+    },
+    {
+      title:"Mobile Development",
+      description:" I have a been a web Developer for 2 years",
+      icon : <WebOutlined />
+    },
+    {
+      title:"Web Dev",
+      description:" I have a been a web Developer for 2 years",
+      icon : <WebOutlined />
+    }
+  ],
+  skills:[
+   {
+    title:"FRONTEND",
+    discreption:["ReactJS","JavaScript","TypeScript","Material UI","Bootstrap"]
+   },
+   {
+    title:"BACKEND",
+    discreption:["NodeJS","Java","Python","Material UI","Bootstrap"]
+   },
+   {
+    title:"DATABASES",
+    discreption:["Firebase","MySQL","postgreSQL","MongoDB","Table Storage","Redis"]
+   },/*{
+    title:"SOURCE CONTROL",
+    discreption:["Git","GitHub","SCRUM/Agile"]
+   }*/
+  ]
+};
+
+/**
+ * 
+ * ,
     {
       title: "Web Developer",
       date: "Jan 2020 - Feb 2020",
@@ -81,25 +142,5 @@ export default {
         "Technologies used: Animaker",
       ],
     },
-  ],
-  education: [
-    {
-      title: "National Diploma in Software Development Engineering",
-      universiity: "Higher Institute of Computer Science | Ariana",
-      date: "Present - Sept 2021",
-      discreption: "",
-    },
-    {
-      title: "Applied License in Information Systems Development",
-      universiity: "Higher Institute of Technological Studies | Zaghouan",
-      date: "Sep 2018 - Jul 2021",
-      discreption: "Major of promotion",
-    },
-    {
-      title: "Ben Arous Secondary School",
-      universiity: "Bachelor in Mathematics | Ben Arous",
-      date: "2018",
-      discreption: "",
-    },
-  ],
-};
+ * 
+ */

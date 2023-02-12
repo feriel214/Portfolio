@@ -1,10 +1,10 @@
 import { HomeRounded, Telegram } from "@mui/icons-material";
 import React from "react";
-import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
-import { Link, NavLink, withRouter, useNavigate } from "react-router-dom";
+import {  Navbar, Nav} from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import resumeData from "../../utils/resumeData";
 import CustomButton from "../Button/Button";
-
+import "./Header.css";
 function CustomHeader(props) {
   const pathName = props?.location?.pathname;
   return (

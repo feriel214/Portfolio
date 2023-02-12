@@ -9,13 +9,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CustomFooter from "./components/Footer/Footer";
 function App() {
   return (
-    <Container className="top_60">
-      <Grid container spacing={7}>
+    <Container className="top_60" >
+      <Grid container gap={5}>
         <Grid item lg={3} md={4} sm={12} xs={12}>
           <Profile />
         </Grid>
         <Grid xs>
           <Router>
+            
             <CustomHeader />
             <div className="main-content container-shadow">
               <Routes>
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/" element={<Resume />} />
               </Routes>
             </div>
+            
           </Router>
           <CustomFooter />
         </Grid>
